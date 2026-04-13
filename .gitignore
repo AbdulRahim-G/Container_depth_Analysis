@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Model weights (downloaded automatically at runtime)
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# HuggingFace cache (large, auto-downloaded)
+.cache/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test images
+test_images/
+sample_images/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
